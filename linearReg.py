@@ -54,6 +54,6 @@ class Linear_Reg:
         plt.show()
         
 #creating objet of class and pass the path for your csv file      
-line = Linear_Reg("data\Advertising.csv")
+line = Linear_Reg("Advertising.csv")
 #plotting the data
 line.plot(line.define_x(),line.define_y())
